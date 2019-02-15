@@ -1,0 +1,121 @@
+// 
+    // Header
+
+    // @package astute
+    // @author  Tonye Dickson <i@kb.life>
+
+
+header
+    z-index:                    2
+    font-family:                'Montserrat', sans-serif
+    @media #{$mediumup}
+        height:                     100vh
+        width:                      94px
+        position:                   fixed
+        right:                      0
+
+    .logo
+        h3
+            font-family:                'Montserrat', sans-serif
+
+    nav
+        li a
+            transform:          rotate(90deg)
+            border-radius:      50%
+            transition:         all 0.3s
+            border:             0.5px dotted transparent
+
+        li a:hover
+            transform:          rotate(0deg)
+
+.logo-area
+    font-family:                'Dancing Script', cursive
+    font-size:                  1.5rem
+    @media #{$mediumup}
+        position:                   fixed
+        top:                        20px
+        left:                       50px
+
+
+.mobile-nav
+    height:                             0
+    background:                         white
+    transition:                         height 0.00000000001s
+    z-index:                            21
+    ul
+        padding:                        15px
+        list-style:                     none
+        display:                        flex
+        flex-direction:                 column
+        height:                         100%
+        justify-content:                space-between
+        margin:                         0
+        align-items:                    flex-end
+        opacity:                        0
+        transition:                     opacity 0.5s
+        li
+            transform:                  translateY(-230px)
+            opacity:                    0
+            transition:                 opacity 0.05s
+
+.open-nav.mobile-nav
+    margin-top:                         110px
+    height:                             290px
+    ul
+        opacity:                        1
+        li
+            transform:                  translateY(0)
+            opacity:                    1
+
+
+.nav-menu
+    .bar1, .bar2, .bar3
+        background-color:           rgba(0,0,0,0.7)
+
+.nav-menu
+    display:                        flex
+    flex-direction:                 column
+    align-items:                    flex-end
+    cursor:                         pointer
+    z-index:                        20
+    .bar1, .bar2
+        width:                      25px
+        height:                     2px
+        margin:                     3px 0
+        transition:                 0.4s
+    .bar3
+        width:                      13px
+        height:                     2px
+        margin:                     3px 0
+        transition:                 0.4s
+.change .bar1
+    transform:                      rotate(-45deg) translate(-2px, 5px)
+.change .bar2
+    opacity:                        0
+.change .bar3
+    transform:                      rotate(45deg) translate(-6px, -9px)
+    width:                          25px
+
+.drop
+    display:                            none 
+
+.dropdown 
+    svg:hover
+        cursor:                         pointer 
+
+.dropdown.open
+    z-index:                            2
+    .drop
+        display:                        block
+        width:                          150px
+        top:                            130%
+        right:                          0%
+        li:hover
+            background-color:           #F7F7F7
+        
+
+
+
+@media screen and (max-width: 766px)
+    nav
+        display: none

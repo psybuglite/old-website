@@ -854,70 +854,46 @@ header nav li a:hover {
 .bars {
   position: absolute;
   top: 100%;
+  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 3;
+  z-index: 80000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
 .bars .d-bar-1 {
   height: 0px;
   width: 2px;
   background-color: black;
+  margin: 0 9px;
+  position: relative;
+  z-index: 8;
 }
 
 .bars .d-bar-2 {
   height: 0px;
   width: 2px;
   background-color: black;
-  margin: 0 10px;
-}
-
-.bars .d-bar-3 {
-  height: 0px;
-  width: 2px;
-  background-color: black;
+  margin-left: 9px;
+  position: relative;
+  z-index: 8;
 }
 
 .change .bars .d-bar-1 {
-  height: 100px;
+  height: 200px;
   width: 2px;
 }
 
 .change .bars .d-bar-2 {
-  height: 100px;
+  height: 200px;
   width: 2px;
 }
 
-.change .bars .d-bar-3 {
-  height: 100px;
-  width: 2px;
-}
-
-.drop {
-  display: none;
-}
-
-.dropdown svg:hover {
-  cursor: pointer;
-}
-
-.dropdown.open {
-  z-index: 2;
-}
-
-.dropdown.open .drop {
-  display: block;
-  width: 150px;
-  top: 130%;
-  right: 0%;
-}
-
-.dropdown.open .drop li:hover {
-  background-color: #F7F7F7;
-}
-
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   nav {
     display: none;
   }

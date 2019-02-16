@@ -864,8 +864,6 @@ header nav li a:hover {
   height: 0px;
   width: 2px;
   background-color: black;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
 }
 
 .bars .d-bar-2 {
@@ -873,16 +871,12 @@ header nav li a:hover {
   width: 2px;
   background-color: black;
   margin: 0 10px;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
 }
 
 .bars .d-bar-3 {
   height: 0px;
   width: 2px;
   background-color: black;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
 }
 
 .change .bars .d-bar-1 {

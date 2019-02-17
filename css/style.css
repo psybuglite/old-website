@@ -591,7 +591,8 @@ main {
 
 @media screen and (max-width: 767px) {
   main {
-    margin: 0px;
+    margin-top: 89px;
+    margin-right: 0;
   }
 }
 
@@ -1083,8 +1084,8 @@ nav a.is-active {
   background-color: rgba(21, 21, 21, 0.8);
 }
 
-.bg-google {
-  background-color: #D62D20;
+.bg-bg {
+  background-color: #f8f8f8;
 }
 
 .bg-branddark {
@@ -1221,6 +1222,16 @@ nav a.is-active {
   background-color: #00EA25;
   left: 0px;
   top: 42px;
+}
+
+.bigtext1 {
+  -webkit-transform: translate(15px) rotate(-10deg);
+          transform: translate(15px) rotate(-10deg);
+}
+
+.bigtext2 {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
 hr {
@@ -1488,6 +1499,10 @@ tbody tr:hover {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.about-height {
+  height: 40vh;
 }
 
 .fit-cover {
@@ -2013,6 +2028,12 @@ h3, .h3 {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .fixed-on-mobile {
+    position: fixed;
+  }
 }
 
 .d-blk {

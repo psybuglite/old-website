@@ -1148,6 +1148,10 @@ nav a.is-active {
   border-top: 1px solid #ddd;
 }
 
+.borderline-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
 .list-border {
   border-bottom: 1px solid #ddd;
 }
@@ -2128,6 +2132,11 @@ h3, .h3 {
   margin: 0;
 }
 
+.my-h {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -2169,6 +2178,16 @@ h3, .h3 {
 
 .mt-3 {
   margin-top: 3rem;
+}
+
+.writing-m-top {
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 767px) {
+  .writing-m-top {
+    margin-top: 0rem;
+  }
 }
 
 .mx-auto {

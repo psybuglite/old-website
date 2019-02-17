@@ -24,13 +24,15 @@ header
             border-radius:      50%
             transition:         all 0.3s
             border:             0.5px dotted transparent
-
+        li a.active
+            transform:          rotate(0deg)
         li a:hover
             transform:          rotate(0deg)
 
 .logo-area
-    font-family:                'Dancing Script', cursive
     font-size:                  1.5rem
+    .text-dance
+        font-family:                'Dancing Script', cursive
     @media #{$mediumup}
         position:                   fixed
         top:                        20px
@@ -42,6 +44,7 @@ header
     transition:                         height 0.00000000001s
     z-index:                            4
     transform:                          translateY(-1200px)
+
     ul
         padding:                        15px
         list-style:                     none
@@ -65,6 +68,8 @@ header
     margin-top:                         68px
     height:                             85vh
     transform:                          translateY(0px)
+    div
+        box-shadow:                     0 3px 12px rgba(0,0,0,0.2)
     ul
         opacity:                        1
         li
@@ -109,7 +114,7 @@ header
 .nav-menu.change
     background-color:               $primarycolor
     padding:                        0.7rem 0.45rem 0.84rem 0.55rem
-    box-shadow:                     0 1px 12px 0 rgba(0,0,0,0.1)
+    box-shadow:                     0 7px 12px rgba(0,0,0,0.3)
 
 
 .bars
@@ -117,7 +122,7 @@ header
     top:                            100%
     left:                           0
     display:                        flex
-    z-index:                        80000
+    z-index:                        5
     align-items:                    center
     width:                          100%
     .d-bar-1

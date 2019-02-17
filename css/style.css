@@ -19,7 +19,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   line-height: 1.6225;
-  color: rgba(0, 0, 0, 0.76);
+  color: #080705;
   letter-spacing: 0.155px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1229,13 +1229,13 @@ nav a.is-active {
 }
 
 .bigtext1 {
-  -webkit-transform: translate(15px) rotate(-10deg);
-          transform: translate(15px) rotate(-10deg);
+  -webkit-transform: translate(25px) rotate(-5deg);
+          transform: translate(25px) rotate(-5deg);
 }
 
 .bigtext2 {
-  -webkit-transform: rotate(-10deg);
-          transform: rotate(-10deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 hr {
@@ -2472,6 +2472,14 @@ h3, .h3 {
 
 .opacity-7 {
   opacity: 0.7;
+}
+
+.hide-flow-x {
+  overflow-x: hidden;
+}
+
+.hide-flow-y {
+  overflow-y: hidden;
 }
 
 .sr:not(:focus):not(:active) {

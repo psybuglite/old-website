@@ -551,6 +551,10 @@ button {
   max-height: 100vh;
 }
 
+.min-h-180 {
+  min-height: 190px;
+}
+
 .max-height-70-vh {
   min-height: 70vh;
 }

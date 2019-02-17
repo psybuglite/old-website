@@ -1012,6 +1012,10 @@ nav a.is-active {
   color: #080705;
 }
 
+.co-comp {
+  color: #FFD600;
+}
+
 .co-white {
   color: #ffffff;
 }
@@ -1217,22 +1221,6 @@ nav a.is-active {
   background-color: #00EA25;
   left: 0px;
   top: 42px;
-}
-
-h4 {
-  position: relative;
-  display: inline-block;
-}
-
-h4::before {
-  content: "";
-  position: absolute;
-  height: 6px;
-  width: 100%;
-  border-radius: 30px;
-  background-color: #045894;
-  left: 0px;
-  top: 22px;
 }
 
 hr {
@@ -2289,6 +2277,16 @@ h3, .h3 {
 .px-3 {
   padding-right: 3rem;
   padding-left: 3rem;
+}
+
+.px-5 {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.px-6 {
+  padding-right: 6rem;
+  padding-left: 6rem;
 }
 
 .pt-0 {

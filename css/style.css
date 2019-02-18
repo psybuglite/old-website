@@ -1178,8 +1178,12 @@ nav a.is-active {
   border-bottom-left-radius: 4px;
 }
 
-.blog-list li:hover {
-  background-color: #fff;
+.blog-list a {
+  border: 0.5px dotted rgba(0, 0, 0, 0);
+}
+
+.blog-list a:hover {
+  border: 0.5px dotted rgba(0, 0, 0, 0.5);
 }
 
 .cardshadow {

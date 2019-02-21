@@ -2413,6 +2413,18 @@ h3, .h3 {
   }
 }
 
+.flex-show-mediumup {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .flex-show-mediumup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .show-largeup {
   display: none;
 }

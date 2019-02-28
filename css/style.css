@@ -499,6 +499,41 @@ button {
   width: 100%;
 }
 
+.w-link {
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (min-width: 768px) {
+  .w-link {
+    height: 50px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .w-link {
+    height: 50px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+.work-item {
+  background-color: white;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+
+.work-item:hover {
+  background-color: white;
+  border: 1px solid #045894;
+}
+
 .h-100 {
   height: 100%;
 }

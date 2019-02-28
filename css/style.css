@@ -327,7 +327,7 @@ button {
       grid-template-columns: 1fr;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .grid-2 {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -552,7 +552,14 @@ button {
 }
 
 .min-h-80 {
-  min-height: 80px;
+  min-height: 90px;
+}
+
+@media only screen and (min-width: 768px) {
+  .min-h-80 {
+    min-height: 20vh;
+    margin-top: 100px;
+  }
 }
 
 .max-height-70-vh {
@@ -733,6 +740,14 @@ header nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
+  .logo-area {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .logo-area {
     position: fixed;
     top: 20px;

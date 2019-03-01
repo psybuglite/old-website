@@ -65,26 +65,18 @@
     top:                42px
 
 .bigtext1
+    font-size:          2.22rem
     transform:          translate(25px) rotate(-5deg)
+    @media #{ $smallup }
+        font-size:      2.96rem
 .bigtext2
+    font-size:          2.22rem
     transform:          rotate(-5deg)
+    @media #{ $smallup }
+        font-size:      2.96rem
     
 hr
     border-color:       rgba(0,0,0,0.1)
-
-.success
-    display:            inline-block
-    color:              #06A600
-    background-color:   #E5FFE4
-    padding:            0.3rem 1rem
-    border-radius:      20px
-
-.fail
-    display:            inline-block
-    color:              red
-    background-color:   #FFDBDB
-    padding:            0.3rem 2rem
-    border-radius:      20px
 
 .bar
     width:              100%

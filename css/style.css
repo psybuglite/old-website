@@ -334,6 +334,21 @@ button {
   }
 }
 
+.grid-medium-2 {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.79rem;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-medium-2 {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
 .grid-2-s {
   display: -ms-grid;
   display: grid;
@@ -532,6 +547,10 @@ button {
 .work-item:hover {
   background-color: white;
   border: 1px solid #045894;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .h-100 {

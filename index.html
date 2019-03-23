@@ -42,96 +42,35 @@
     <h1 class="sr">
         Tonye
     </h1>
-    <header class="site-header">
-        <div class="w-100 bg-branddark height-100-vh flex-dir-col al-i-c j-c-c flex-show-mediumup">
-            <nav class="d-flx j-c-sb flex-dir-col al-i-c">
-                <ul class="none d-flx j-c-c flex-dir-col h-100 al-i-c topmenu">
-                    <li class="my-h w-100">
-                        <a class="tx-c d-blk p-1 py-2h active co-white">
-                                Home
-                        </a>
-                    </li>
-                    <li class="my-h w-100">
-                        <a href="about.html" class="tx-c d-blk p-1 py-2h co-white">
+    <header class="site-header pos-a w-100">
+        <div class="main-wrap wrapper mx-auto">
+            <nav class="d-flx j-c-sb al-i-c">
+                <a  href="index.html" class="logo-area d-flx al-i-c">
+                    <img src="img/icon.png" class="small-avatar prefix is-wider" alt="">
+                    <p class="text-dance co-richblack show-mediumup">
+                        Tonye Dickson
+                    </p>
+                </a>
+                <ul class="none d-flx al-i-c topmenu">
+                    <li class="my-h">
+                        <a href="about.html" class="tx-c d-blk py-h co-richblack">
                             About
                         </a>
                     </li>
-                    <li class="my-h w-100">
-                        <a href="work.html" class="tx-c d-blk p-1 py-2h co-white">
+                    <li class="my-h">
+                        <a href="work.html" class="tx-c d-blk py-h co-richblack">
                             Work
                         </a>
                     </li>
-                    <li class="my-h w-100">
-                        <a href="writing.html" class="tx-c d-blk p-1 py-2h co-white">
+                    <li class="my-h">
+                        <a href="writing.html" class="tx-c d-blk py-h co-richblack">
                             Writing
-                        </a>
-                    </li>
-                    <li class="my-h w-100">
-                        <a href="contact.html" class="tx-c d-blk p-1 py-2h co-white">
-                            Contact
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
-
-        <div class="d-flx bg-bg j-c-sb al-i-c fixed-on-mobile fixed-to-top w-100 wrapper-x py-1">
-
-            <a  href="index.html" class="logo-area">
-                <p class="text-dance co-richblack">
-                    Tonye Dickson
-                </p>
-            </a>
-            <div class="nav-menu pos-r flex-hide-mediumup" onclick="showmenu(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-                <div class="bars">
-                    <div class="d-bar-1"></div>
-                    <div class="d-bar-2"></div>
-                </div>
-            </div>
-        </div>
     </header>
-
-    <div class="mobile-nav wrapper-x pos-f fixed-to-top min-height-60-vh">
-        <div class="h-100 bg-white">
-            <ul class="sub-ul none tx-c">
-               <li>
-                    <a class="d-blk p-hh co-richblack">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="about.html" class="d-blk p-hh co-richblack">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="work.html" class="d-blk p-hh co-richblack">
-                        Work
-                    </a>
-                </li>
-                <li>
-                    <a href="writing.html" class="d-blk p-hh co-richblack">
-                        Writing
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html" class="d-blk p-hh co-richblack">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-            <p class="px-1 pb-1 co-richblack hometext">
-                This website was built with <a href="http://gatsbyjs.org" class="co-primary fw-bold">Gatsby.js</a> and is currently hosted on <a href="http://netlify.com" class="co-primary fw-bold">Netlify</a>. The source code and other assets can be found on <a href="http://github.com" class="co-primary fw-bold">Github</a>.
-            </p>
-            <p class="px-1 tx-c co-richblack hometext">
-                Copyright &copy; 2019. Copyright Dennis Dickson. All Rights Reserved.
-            </p>
-        </div>
-    </div>
-
 
 
     <main>
@@ -158,14 +97,9 @@
                         <h2 class="very-large-text mt-0 show-mediumup">
                             I'm Tonye
                         </h2>
-                        <p class="show-mediumup">
-                            I’m a Designer and Developer
-                            <br/>
-                            from Lagos, Nigeria
-                        </p>
                         <div class="d-flx py-2 mobile-center">
                             <button class="bg-primary d-ibl thin-primary-border px-3 py-hh co-white">
-                                Hire Me
+                                Say Hello
                             </button>
                             <button class="bg-bg thin-primary-border px-1h suffix is-wider py-hh co-richblack">
                                 View Resume
@@ -198,12 +132,24 @@
                                 </svg>
                             </a>
                         </div>
+
+                        <div class="py-1 maxwidth-sm">
+                            <p class="pb-h co-richblack picotext">
+                                Built with <a href="http://gatsbyjs.org" class="co-primary fw-bold">Gatsby.js</a>, hosted on <a href="http://netlify.com" class="co-primary fw-bold">Netlify</a>. The source code and other assets are on <a href="http://github.com" class="co-primary fw-bold">Github</a>.
+                            </p>
+                            <p class="co-richblack picotext">
+                                Copyright &copy; 2019. Copyright Dennis Dickson. All Rights Reserved.
+                            </p>
+                        </div>
                     </div>
+                    
                 </div>
+
             </div>
 
         </section>
     </main>
+        
 
     <script src="js/main.js"></script>
 </body>

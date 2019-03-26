@@ -1077,6 +1077,24 @@ nav a.is-active {
   }
 }
 
+.tag-item {
+  display: inline-block;
+  padding: 0.1rem 0.8rem 0.25rem 0.8rem;
+  margin-right: 0.4rem;
+  border-radius: 50px;
+  border: 0.7px solid #045894;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.tag-item:hover {
+  background-color: #045894;
+}
+
+.tag-item:hover a {
+  color: white;
+}
+
 .active-dot {
   position: relative;
 }

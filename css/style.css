@@ -778,10 +778,6 @@ nav a.is-active {
   color: #045894;
 }
 
-.bg-light {
-  background-color: white;
-}
-
 .topmenu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -790,19 +786,6 @@ nav a.is-active {
 
 .logo {
   width: 120px;
-}
-
-.nav-menu {
-  display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .topmenu {
-    display: none;
-  }
-  .nav-menu {
-    display: block;
-  }
 }
 
 .site-footer .columns {
@@ -1079,12 +1062,16 @@ nav a.is-active {
 
 .tag-item {
   display: inline-block;
-  padding: 0.1rem 0.8rem 0.25rem 0.8rem;
   margin-right: 0.4rem;
   border-radius: 50px;
   border: 0.7px solid #045894;
   margin-bottom: 1rem;
   font-size: 0.8rem;
+}
+
+.tag-item a {
+  display: block;
+  padding: 0.1rem 0.8rem 0.25rem 0.8rem;
 }
 
 .tag-item:hover {

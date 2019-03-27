@@ -1084,10 +1084,10 @@ nav a.is-active {
 
 .writing-nav-icon {
   display: inline-block;
-  border: 1px solid black;
-  padding: 0.5rem;
+  border: 1px solid #565656;
+  padding: 0.45rem 0.5rem;
   text-align: center;
-  background-color: black;
+  background-color: #565656;
   color: white;
   width: 40px;
   height: 40px;
@@ -1095,8 +1095,6 @@ nav a.is-active {
 }
 
 .writing-nav-icon.active {
-  padding: 0.5rem;
-  text-align: center;
   border: 1px solid #045894;
   background-color: #f8f8f8;
   color: black;
@@ -1424,6 +1422,16 @@ tbody tr:hover {
 
 .largetext {
   font-size: 1.475rem;
+}
+
+.largertext {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .largertext {
+    font-size: 3rem;
+  }
 }
 
 .hometext {

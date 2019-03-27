@@ -774,8 +774,22 @@ header nav li a {
   font-family: 'Dancing Script', cursive;
 }
 
+nav a {
+  position: relative;
+}
+
 nav a.is-active {
   color: #045894;
+}
+
+nav a.is-active::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 35px;
+  background-color: #045894;
 }
 
 .topmenu {
@@ -1107,6 +1121,22 @@ nav a.is-active {
   cursor: pointer;
 }
 
+.article-left-nav, .article-right-nav {
+  border: 1px solid #565656;
+  padding: 0.45rem 0.5rem;
+  text-align: center;
+  background-color: #565656;
+  color: white;
+  margin: 0.5rem;
+}
+
+.article-left-nav:hover, .article-right-nav:hover {
+  border: 1px solid #045894;
+  background-color: #f8f8f8;
+  color: black;
+  cursor: pointer;
+}
+
 .active-dot {
   position: relative;
 }
@@ -1326,6 +1356,10 @@ tbody tr:hover {
 
 .tx-l {
   text-align: left;
+}
+
+.tx-r {
+  text-align: right;
 }
 
 .uline {
